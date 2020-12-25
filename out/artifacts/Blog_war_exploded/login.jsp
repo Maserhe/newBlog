@@ -64,7 +64,7 @@
     <!-- /.login-logo -->
     <div class="card">
         <div class="card-body login-card-body">
-            <p class="login-box-msg">your personal blog , enjoy it</p>
+            <p class="login-box-msg">Welcom, Maserhe</p>
             <form action="LoginServlet" method="post">
                 <div class="form-group">
                     <div class="alert alert-danger" style="display: none"
@@ -80,7 +80,7 @@
                     <input type="password" id="password" name="password" class="form-control" placeholder="请输入密码"
                            required="true">
                 </div>
-                <div class="row">
+                <%--<div class="row">
                     <div class="col-6">
                         <input class="form-control input-code" name="verifyCode" placeholder="请输入验证码" required="true"
                                type="text" placeholder="验证码">
@@ -88,9 +88,9 @@
                     <div class="col-6" style="width: 221.6px;">
                         <span style="font-size: 23px;height: 40px" class="code pointer" title='点击切换'></span>
                     </div>
-                </div>
+                </div>--%>
                 <div class="form-group has-feedback"></div>
-                <div class="row">
+                <%--<div class="row">
                     <div class="col-8" style="max-width: 47.666667%">
                         <button style="width: 105% " type="button" class="btn btn-primary btn-block btn-flat"
                                 onclick="register()">注册
@@ -100,7 +100,16 @@
                         <button style="width: 228px" type="submit" class="btn btn-primary btn-block btn-flat">登录
                         </button>
                     </div>
+                </div>--%>
+
+                <div class="row">
+                    <div class="col-8">
+                        <button style="width: 154% " type="submit" class="btn btn-primary btn-block btn-flat">登录
+                        </button>
+                    </div>
                 </div>
+
+
                 <div class="row">
                     <div class="col-8">
                         <button style="width: 154% " type="button" class="btn btn-primary btn-block btn-flat"
