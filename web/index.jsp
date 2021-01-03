@@ -21,8 +21,6 @@
     <%--  引入head  --%>
     <jsp:include page="index/css.jsp" />
     <%--彩带--%>
-
-
 </head>
 
 
@@ -159,10 +157,6 @@
 <%--<!-- sweetalert -->--%>
 <script src="admin/plugins/sweetalert/sweetalert.min.js"></script>
 <script src="admin/dist/js/public.js"></script>
-
-
-
-
 
 
 <script>

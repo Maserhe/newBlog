@@ -34,8 +34,6 @@ public class IndexServlet extends HttpServlet {
     CategoryService categoryService=new CategoryServiceImpl();
     LinkService linkService=new LinkServiceImpl();
 
-
-
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         try {

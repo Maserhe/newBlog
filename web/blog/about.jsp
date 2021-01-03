@@ -24,7 +24,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>关于 | 行路のblog</title>
+    <title>关于 | Maserheのblog</title>
     <meta property="og:image" content="https://todcsw.github.io/img/post.jpg">
     <link rel="stylesheet" href="blog/css/index.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css">
@@ -48,16 +48,48 @@
     <main class="layout_page" id="content-inner">
         <div id="page">
             <div id="article-container">
-                <h2>关于</h2>
+                <h2>个人简历</h2>
                 <ul>
-                    <li>java开发路上的小敢敢</li>
+                    <%--<li>java开发路上的小敢敢</li>
                     <li>名字:${requestScope.showDescription.name}</li>
                     <li>星座:${requestScope.showDescription.constellation}</li>
                     <li>&nbsp;<span style="color:red">${requestScope.showDescription.experience}</span> </li>
                     <li>最喜欢的一句话:${requestScope.showDescription.sentence}</li>
                     <li>偶像:<span style="color:red">${requestScope.showDescription.idol}</span></li>
-                    <li>性格:${requestScope.showDescription.character}</li>
-                    <li>联系方式:${requestScope.showDescription.contact}</li>
+                    <li>性格:${requestScope.showDescription.character}</li>blog_db@localhost
+                    <li>联系方式:${requestScope.showDescription.contact}</li>--%>
+
+                    <li>本科/沈阳工业大学/计算机科学与技术系/在读大三/2018-至今</li>
+                    <li>Github: <a href="https://github.com/Maserhe" target="_blank" rel="noopener">https://github.com/Maserhe</a></li>
+                    <li>Email: <a href="mailto:maserhelinux@gmail.com">maserhelinux@gmail.com</a></li>
+                    <li>BLog: <a href="https://maserhe.top">https://maserhe.top</a></li>
+                    <li>QQ:982289931<h1 id="技能清单"><a href="#技能清单" class="headerlink" title="技能清单"></a>技能清单</h1></li>
+                </ul>
+                <hr>
+                <ul>
+                    <li>语言: Java / C++</li>
+                    <li>Cache：Redis / memcache</li>
+                    <li>数据库相关：MySQL</li>
+                    <li>前端：html / css / JavaScript</li>
+                    <li>框架：SSM</li>
+                    <li>版本管理：Git / SVN</li>
+                    <li>其他：Ajax / XML / OOP / WebSocket / Python / 敏捷项目开发 / 设计模式 / 正则表达式 / 性能优化及安全常识 / 内部标准编程风格</li>
+                    <li>以Linux为日常操作系统</li>
+                    <li>擅长独立或者合作快速完成整个项目，并保持高提前上线率、低BUG率、低事故率<h1 id="工作经历"><a href="#工作经历" class="headerlink" title="工作经历"></a>工作经历</h1></li>
+                </ul>
+                <hr>
+                <ul>
+                    <li>有待完善 <span class="github-emoji" style="color: transparent;background:no-repeat url(https://github.githubassets.com/images/icons/emoji/unicode/1f604.png?v8) center/contain" data-src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png?v8">😄</span></li>
+                </ul>
+                <h1 id="曾获荣誉"><a href="#曾获荣誉" class="headerlink" title="曾获荣誉"></a>曾获荣誉</h1><h3 id="专业技能"><a href="#专业技能" class="headerlink" title="专业技能"></a>专业技能</h3><ul>
+                <li>有待完善<span class="github-emoji" style="color: transparent;background:no-repeat url(https://github.githubassets.com/images/icons/emoji/unicode/1f604.png?v8) center/contain" data-src="https://github.githubassets.com/images/icons/emoji/unicode/1f604.png?v8">😄</span></li>
+            </ul>
+                <h3 id="综合素质"><a href="#综合素质" class="headerlink" title="综合素质"></a>综合素质</h3><ul>
+                <li>2020.11 “辽宁省程序设计大赛(ACM) 三等奖”</li>
+                <li>2020.11 “优秀团员”</li>
+                <li>2020.11 “校二等奖学金”</li>
+                <li>2019.11 “三好学生”</li>
+                <li>2019.11 “校二等奖学金”</li>
                 </ul>
                 <h2>想对大家说的话:</h2>
                 <ul>

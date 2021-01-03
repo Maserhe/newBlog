@@ -13,7 +13,7 @@ import com.csw.service.DescriptionService;
  */
 public class DescriptionServiceImpl implements DescriptionService {
 
-    DescriptionDao descriptionDao=new DescriptionDaoImpl();
+    DescriptionDao descriptionDao = new DescriptionDaoImpl();
 
     @Override
     public Description selDescription() throws Exception {

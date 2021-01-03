@@ -1,6 +1,5 @@
 package com.csw.dao.impl;
 
-import cn.hutool.db.Db;
 import com.csw.dao.PhotoDao;
 import com.csw.entity.Photo;
 import com.csw.util.DBUtil;
@@ -8,7 +7,7 @@ import com.csw.util.DBUtil;
 import java.sql.ResultSet;
 
 /**
- * @Auther: 行路
+ * @Auther: Maserhe
  * @Date: Created on 2020/6/9 9:56 星期二
  * @Description: com.csw.dao.impl
  * @version: 1.0

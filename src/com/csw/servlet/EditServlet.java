@@ -2,29 +2,23 @@ package com.csw.servlet;
 
 import cn.hutool.core.date.DateTime;
 import com.csw.entity.Blog;
-import com.csw.entity.Category;
 import com.csw.service.BlogService;
 import com.csw.service.CategoryService;
 import com.csw.service.impl.BlogServiceImpl;
 import com.csw.service.impl.CategoryServiceImpl;
 
-import javax.net.ssl.HttpsURLConnection;
 import javax.servlet.ServletException;
-import javax.servlet.SessionCookieConfig;
 import javax.servlet.annotation.MultipartConfig;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.*;
 import java.io.File;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.lang.ref.ReferenceQueue;
 import java.util.UUID;
 
-import static java.lang.Thread.sleep;
-
 /**
- * @Auther: 行路
- * @Date: Created on 2020/6/10 9:53 星期三
+ * @Auther: Maserhe
+ * @Date: Created on 2021/12/12 9:53 星期三
  * @Description: ${PACKAGE_NAME} 修改blog的控制页面
  * @version: 1.0
  */
@@ -33,7 +27,7 @@ import static java.lang.Thread.sleep;
 public class EditServlet extends HttpServlet {
 
     /**
-     * 调用义务层获得首页相关信息
+     * 调用业务层获得首页相关信息
      */
     BlogService blogService = new BlogServiceImpl();
     CategoryService categoryService = new CategoryServiceImpl();

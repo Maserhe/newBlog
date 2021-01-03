@@ -42,9 +42,6 @@
     Page pageBreak = new Page(start, count,pageNumber);
 
 
-
-
-
     String tagName=request.getParameter("tagName");
 
     BlogService blogService=new BlogServiceImpl();
