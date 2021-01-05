@@ -1,8 +1,8 @@
 <%--
   Created by IntelliJ IDEA.
-  User: 行路
-  Date: 2020/6/11
-  Time: 15:00
+  User: Maserhe
+  Date: 2020/12/25
+  Time: 14:42
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -14,7 +14,7 @@
 <base href="<%=basePath%>}">
 <%--style="background-image: url('')"--%>
 <div class="not-index-bg" id="nav" >
-    <div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="blog/index.jsp">行路のblog</a></span><span
+    <div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="blog/index.jsp">Maserhe的blog</a></span><span
             class="pull_right menus">
 						<div class="menus_items">
 							<div class="menus_item"><a class="site-page" href="blog/index.jsp"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div>

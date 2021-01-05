@@ -1,8 +1,8 @@
-<%@ page import="com.csw.entity.Blog" %><%--
+<%@ page import="entity.Blog" %><%--
   Created by IntelliJ IDEA.
-  User: 行路
-  Date: 2020/6/6
-  Time: 22:40
+  User: Maserhe
+  Date: 2020/12/17
+  Time: 21:47
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -199,12 +199,9 @@
 <script type="text/javascript" src="X-admin/editormd/src/editormd.js"></script>
 <%--弹框等js--%>
 <script type="text/javascript" src="admin/dist/js/edit2.js"></script>
-
 <%--文件上传--%>
 <script type="text/javascript" src="admin/dist/js/plugins/bootstrap/js/bootstrap-fileupload.js"></script>
 <script>
-
-
 
     function forward() {
         window.location.href = "BlogServlet";
@@ -241,7 +238,6 @@
             }
         })
 
-
         $("#blogName").val("${sessionScope.blog.title}");
         $(".blogId").val($("input:hidden[name='blogId']").val());
 
@@ -252,8 +248,6 @@
                 $(this).prop("selected", true);
             }
         })
-
-
 
         $(".editormd-markdown-textarea").val($("input:hidden[name='blogContentEdit']").val());
     })

@@ -1,5 +1,5 @@
-<%@ page import="com.csw.service.FooterService" %>
-<%@ page import="com.csw.service.impl.FooterServiceImpl" %><%--
+<%@ page import="service.FooterService" %>
+<%@ page import="service.impl.FooterServiceImpl" %><%--
   Created by IntelliJ IDEA.
   User: 行路
   Date: 2020/6/6
@@ -8,7 +8,7 @@
 --%>
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<strong>Copyright &copy; 2020<a href="##"></a>.</strong>
+<strong>Copyright &copy; 2021<a href="##"></a>.</strong>
 All rights reserved.
 <div class="float-right d-none d-sm-inline-block">
     <b>my personal blog </b>

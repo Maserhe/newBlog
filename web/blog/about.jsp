@@ -1,14 +1,14 @@
-<%@ page import="com.csw.service.PhotoService" %>
-<%@ page import="com.csw.service.impl.PhotoServiceImpl" %>
-<%@ page import="com.csw.service.DescriptionService" %>
-<%@ page import="com.csw.service.impl.DescriptionServiceImpl" %>
-<%@ page import="com.csw.service.impl.CommentServiceImpl" %>
-<%@ page import="com.csw.service.CommentService" %>
-<%@ page import="com.csw.service.RightService" %>
-<%@ page import="com.csw.service.impl.RightServiceImpl" %><%--
+<%@ page import="service.PhotoService" %>
+<%@ page import="service.impl.PhotoServiceImpl" %>
+<%@ page import="service.DescriptionService" %>
+<%@ page import="service.impl.DescriptionServiceImpl" %>
+<%@ page import="service.impl.CommentServiceImpl" %>
+<%@ page import="service.CommentService" %>
+<%@ page import="service.RightService" %>
+<%@ page import="service.impl.RightServiceImpl" %><%--
   Created by IntelliJ IDEA.
-  User: 行路
-  Date: 2020/6/11
+  User: Maserhe
+  Date: 2020/12/25
   Time: 14:42
   To change this template use File | Settings | File Templates.
 --%>

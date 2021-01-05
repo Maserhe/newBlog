@@ -1,12 +1,12 @@
-<%@ page import="com.csw.entity.Blog" %>
+<%@ page import="entity.Blog" %>
 <%@ page import="java.util.List" %>
-<%@ page import="com.csw.util.MarkDownUtil" %>
-<%@ page import="com.csw.util.Page" %>
-<%@ page import="com.csw.service.impl.*" %>
-<%@ page import="com.csw.service.*" %><%--
+<%@ page import="util.MarkDownUtil" %>
+<%@ page import="util.Page" %>
+<%@ page import="service.impl.*" %>
+<%@ page import="service.*" %><%--
   Created by IntelliJ IDEA.
   User: Maserhe
-  Date: 2021/12/25
+  Date: 2020/12/25
   Time: 14:42
   To change this template use File | Settings | File Templates.
 --%>
@@ -24,7 +24,6 @@
     int count = 6;
     int pageNumber=1;
     try {
-
         pageNumber=Integer.parseInt(request.getParameter("page"));
         start = Integer.parseInt(request.getParameter("page.start"));
         count = Integer.parseInt(request.getParameter("page.count"));
@@ -117,6 +116,10 @@
                                     class="fa-fw fa fa-link"></i><span> 友情链接</span></a></div>
 							<div class="menus_item"><a class="site-page" href="blog/about.jsp"><i
                                     class="fa-fw fa fa-heart"></i><span> 关于</span></a></div>
+
+                            <div class="menus_item"><a class="site-page" href="login.jsp"><i
+                                    class="fa-fw fa fa-lock"></i><span> 登陆</span></a></div>
+
 						</div><span class="toggle-menu close"><a class="site-page"><i class="fa fa-bars fa-fw"
                                                                                       aria-hidden="true"></i></a></span>
 					</span>
@@ -146,6 +149,8 @@
                         <a href="BlogShowServlet?blogID=${blog.id}" title="${blog.title}">
                             <img class="post_bg lazyload" data-src="${blog.photo}"
                                  onerror="this.onerror=null;this.src='/img/404.jpg'" alt="${blog.title}">
+                            <%--<img class="post_bg lazyload" data-src="/BlogPhoto/1.jpg"
+                                 onerror="this.onerror=null;this.src='/img/404.jpg'" alt="${blog.title}">--%>
                         </a>
                     </div>
                     <div class="recent-post-info">

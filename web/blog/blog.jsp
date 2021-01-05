@@ -1,8 +1,8 @@
-<%@ page import="com.csw.entity.Blog" %><%--
+<%@ page import="entity.Blog" %><%--
   Created by IntelliJ IDEA.
-  User: 行路
-  Date: 2020/6/11
-  Time: 17:53
+  User: Maserhe
+  Date: 2020/12/25
+  Time: 14:42
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -11,7 +11,7 @@
     String path = request.getContextPath();
     String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
     Blog blog = (Blog)request.getAttribute("BlogShowInBlog");
-    String blogImage=blog.getPhoto().substring(0,9)+"/"+blog.getPhoto().substring(10);
+    String blogImage = blog.getPhoto().substring(0,9)+"/"+blog.getPhoto().substring(10);
 %>
 <base href="<%=basePath%>}">
 <!DOCTYPE html>
@@ -20,7 +20,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>关于 | 行路のblog</title>
+    <title>关于 | Maserhe的blog</title>
     <meta property="og:image" content="https://todcsw.github.io/img/post.jpg">
     <link rel="stylesheet" href="blog/css/index.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css">
@@ -132,7 +132,7 @@
   </style>
           </noscript>
     <meta name="generator" content="Hexo 4.2.0">
-    <link rel="alternate" href="/atom.xml" title="行路のblog" type="application/atom+xml">
+    <link rel="alternate" href="/atom.xml" title="Maserhe的blog" type="application/atom+xml">
 </head>
 <body>
 <i class="fa fa-arrow-right on" id="toggle-sidebar" aria-hidden="true"> </i>
@@ -154,7 +154,7 @@
 </div>
 <div id="body-wrap">
     <div class="post-bg" id="nav" style="background-image:url(https://s1.ax1x.com/2020/05/08/YuyGRA.jpg)">
-        <div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="blog/index.jsp">行路のblog</a></span><span
+        <div id="page-header"><span class="pull_left" id="blog_name"><a class="blog_title" id="site-name" href="blog/index.jsp">Maserhe的blog</a></span><span
                 class="pull_right menus">
 						<div class="menus_items">
 							<div class="menus_item"><a class="site-page" href="blog/index.jsp"><i class="fa-fw fa fa-home"></i><span> 首页</span></a></div>
@@ -365,9 +365,9 @@
             $("#post-comment").css("display","none");
         }
 
-
         //获取顶部图片链接地址
         var photoHref="url("+"<%=blogImage%>"+")";
+         /*var photoHref = url("../BlogPhoto/1.jpg");*/
         //顶部背景图片
         if(photoHref.indexOf("BlogPhoto")!=-1){
             $(".post-bg").css("background-image",photoHref);

@@ -1,15 +1,15 @@
-<%@ page import="com.csw.service.impl.RightServiceImpl" %>
-<%@ page import="com.csw.service.RightService" %>
-<%@ page import="com.csw.service.CommentService" %>
-<%@ page import="com.csw.service.impl.CommentServiceImpl" %>
-<%@ page import="com.csw.service.LinkService" %>
-<%@ page import="com.csw.service.impl.LinkServiceImpl" %>
-<%@ page import="com.csw.service.PhotoService" %>
-<%@ page import="com.csw.service.impl.PhotoServiceImpl" %><%--
+<%@ page import="service.impl.RightServiceImpl" %>
+<%@ page import="service.RightService" %>
+<%@ page import="service.CommentService" %>
+<%@ page import="service.impl.CommentServiceImpl" %>
+<%@ page import="service.LinkService" %>
+<%@ page import="service.impl.LinkServiceImpl" %>
+<%@ page import="service.PhotoService" %>
+<%@ page import="service.impl.PhotoServiceImpl" %><%--
   Created by IntelliJ IDEA.
-  User: 行路
-  Date: 2020/6/11
-  Time: 17:35
+  User: Maserhe
+  Date: 2020/12/25
+  Time: 14:42
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -37,7 +37,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <title>友情链接 | 行路のblog</title>
+    <title>友情链接 | Maserhe的blog</title>
     <meta property="og:image" content="https://todcsw.github.io/img/post.jpg">
     <link rel="stylesheet" href="blog/css/index.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/font-awesome@latest/css/font-awesome.min.css">
@@ -76,6 +76,7 @@
 <%--                    <li>Blog头像:<a href="https:Todcsw.github.io/images/avatar.png">https:Todcsw.github.io/images/avatar.png</a></li>--%>
 <%--                    <li>blog简介:学深夜的习,读清晨的书</li>--%>
 <%--                </ul>--%>
+
                 <hr>
 
                 <h2>欢迎留言,交换友链</h2>

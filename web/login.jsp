@@ -1,7 +1,7 @@
 <%--
   Created by IntelliJ IDEA.
-  User: 行路
-  Date: 2020/6/7
+  User: Maserhe
+  Date: 2020/12/17
   Time: 21:47
   To change this template use File | Settings | File Templates.
 --%>
@@ -204,7 +204,7 @@
 
         <footer class="page-footer bg-color">
             <div class="waifu" style="right: 30px;">
-                <div class="waifu-tips" style="width: 307px; height: 87px; top: -30px; font-size: 15px; opacity: 0;">personal blog
+                <div class="waifu-tips" style="width: 307px; height: 87px; top: -30px; font-size: 15px; opacity: 0;">Maserhe blog
                     <span style="color:#0099cc;"> | Log in</span>，个人<span style="color:#0099cc;">博客</span> 登录。
                 </div>
                 <canvas id="live2d" class="live2d" width="300" height="267"></canvas>

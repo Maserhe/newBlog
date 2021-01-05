@@ -1,13 +1,13 @@
-<%@ page import="com.csw.service.BlogService" %>
-<%@ page import="com.csw.service.impl.BlogServiceImpl" %>
-<%@ page import="com.csw.service.TagService" %>
-<%@ page import="com.csw.service.impl.TagServiceImpl" %>
-<%@ page import="com.csw.service.UserService" %>
-<%@ page import="com.csw.service.impl.UserServiceImpl" %><%--
+<%@ page import="service.BlogService" %>
+<%@ page import="service.impl.BlogServiceImpl" %>
+<%@ page import="service.TagService" %>
+<%@ page import="service.impl.TagServiceImpl" %>
+<%@ page import="service.UserService" %>
+<%@ page import="service.impl.UserServiceImpl" %><%--
   Created by IntelliJ IDEA.
-  User: 行路
-  Date: 2020/6/11
-  Time: 15:02
+  User: Maserhe
+  Date: 2020/12/25
+  Time: 14:42
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
