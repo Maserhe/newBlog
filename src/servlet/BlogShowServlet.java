@@ -76,7 +76,7 @@ public class BlogShowServlet extends HttpServlet {
                 request.setAttribute("FirstOrRecentOrOther",blogService.selBlogPrevNext(blog.getUploadTime()));
                 request.setAttribute("isFirstOrRecentOrOther",isFirstOrRecentOrOther(blog));
 
-                List<Blog> blogs=blogService.selAllBlog();
+                List<Blog> blogs = blogService.selAllBlog();
                 Collections.sort(blogs,new MyComparator());
 
                 //相关的推荐信息,使用的是按照id号的排序进行推荐,也就是最新发布的文章进行推荐
